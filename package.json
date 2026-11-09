@@ -1,0 +1,12 @@
+{
+  "name": "jarvis-phone-tests",
+  "private": true,
+  "description": "Tests for the Jarvis Android app's web UI (assets/index.html), run in Chromium with a mock of the Android bridge.",
+  "scripts": {
+    "test": "node tests/tests.js app/index.html",
+    "test:original": "node tests/tests.js original/index.html"
+  },
+  "devDependencies": {
+    "playwright": "^1.45.0"
+  }
+}
